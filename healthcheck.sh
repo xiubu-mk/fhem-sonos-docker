@@ -1,8 +1,8 @@
 #!/bin/bash
 ##################################################################################################
 ##
-##      Healthcheck script for fhem-docker
-##      Copyright (c) 2018 Joscha Middendorf
+##      Healthcheck script for fhem-sonos-docker
+##      Copyright (c) 2018 xiubu-mk
 ##
 ##      This script scanns fhem.cfg for the first FHEMWEB device and determines
 ##      it's PORT and NAME, afterwards it determines if the HTTPS attribute for the
