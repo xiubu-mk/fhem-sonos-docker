@@ -1,8 +1,8 @@
-## Copyright (c) 2018 Joscha Middendorf
+## Copyright (c) 2018 xiubu-mk
 
 FROM debian:stretch
 
-MAINTAINER Joscha Middendorf <joscha.middendorf@me.com>
+MAINTAINER xiubu-mk
 
 ENV FHEM_VERSION=5.8 \
     DEBIAN_FRONTEND=noninteractive \
@@ -116,6 +116,7 @@ RUN \
         #libio-socket-timeout-perl \
         #libmime-lite-perl \
         #libsnmp-perl \
+        #libxml-parser-lite-perl \
 
     ## Clean up APT when done
     && apt-get autoremove \
@@ -152,7 +153,7 @@ RUN chmod +x /root/*.sh
 RUN /root/StartAndInitialize.sh initialize /opt/fhem
 
 ## open ports 
-EXPOSE 7072 8083 8084 8085 8086 8087 8088 8089
+EXPOSE 7072 8083
 
 ## add volumes
 VOLUME /opt/fhem
