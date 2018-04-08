@@ -1,2 +1,2 @@
 # fhem-sonos-docker
-mysql, mqtt, sonos and some other features in a docker environment
+mysql, mqtt, sonos and tablet-ui in a docker environment
