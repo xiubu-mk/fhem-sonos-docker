@@ -54,7 +54,7 @@ RUN \
         #vim \
 
     ## Install perl packages
-    && apt-get -qqy install \
+    && apt-get -y install \
         libalgorithm-merge-perl \
         libauthen-oath-perl \
         libavahi-compat-libdnssd-dev \
