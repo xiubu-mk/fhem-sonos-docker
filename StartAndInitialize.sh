@@ -1,8 +1,8 @@
 #!/bin/bash
 ##################################################################################################
 ##
-##	Start and intitialization script for fhem-docker
-##	Copyright (c) 2018 Joscha Middendorf
+##	Start and intitialization script for fhem-sonos-docker
+##	Copyright (c) 2018 xiubu-mk
 ##
 ##	Before mounting a volume to the container, this script compresses the content 
 ##	of a provided configuration directory to /root/_config.
