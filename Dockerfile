@@ -107,6 +107,7 @@ RUN \
         libtimedate-perl \
         libwww-perl \
         libxml-simple-perl \
+        libxml-parser-lite-perl \
         #libav-tools \
         #libcrypt-cbc-perl \
         #libdbd-mysql \
@@ -116,7 +117,6 @@ RUN \
         #libio-socket-timeout-perl \
         #libmime-lite-perl \
         #libsnmp-perl \
-        #libxml-parser-lite-perl \
 
     ## Clean up APT when done
     && apt-get autoremove \
