@@ -94,7 +94,6 @@ RUN \
         libmodule-pluggable-perl \
         libnet-telnet-perl \
         librpc-xml-perl \
-        libsoap-lite-perl \
         libsocket-perl \
         libsocket6-perl \
         libswitch-perl \
@@ -105,8 +104,9 @@ RUN \
         libtext-csv-perl \
         libtext-diff-perl \
         libtimedate-perl \
-        libwww-perl \
         libxml-simple-perl \
+        libwww-perl \
+        libsoap-lite-perl \
         libxml-parser-lite-perl \
         #libav-tools \
         #libcrypt-cbc-perl \
